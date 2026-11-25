@@ -1,0 +1,18 @@
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #356b42;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+    
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
