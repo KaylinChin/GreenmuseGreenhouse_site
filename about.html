@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Green Muse Plant Nursery</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f7f0;
+            color: #263d2b;
+        }
+
+        /* Navigation */
+        header {
+            background-color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: #356b42;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #263d2b;
+            margin-left: 25px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #6b9b65;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #dcebd8;
+            padding: 75px 10%;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 650px;
+            margin: auto;
+            line-height: 1.7;
+        }
+
+        /* Our Story */
+        .story {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            padding: 70px 10%;
+        }
+
+        .story img {
+            width: 45%;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .story-content {
+            flex: 1;
+        }
+
+        .story-content h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .story-content p {
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        /* Mission Section */
+        .mission {
+            background-color: #e6eee1;
+            padding: 65px 10%;
+            text-align: center;
+        }
+
+        .mission h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .mission p {
+            max-width: 750px;
+            margin: auto;
+            line-height: 1.8;
+            font-size: 17px;
+        }
+
+        /* Why Choose Us */
+        .why-us {
+            padding: 65px 8%;
+            text-align: center;
+        }
+
+        .why-us h2 {
+            font-size: 32px;
+            margin-bottom: 35px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 30px 20px;
+            border-radius: 10px;
+            width: 260px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.07);
+        }
+
+        .feature-card h3 {
+            margin-bottom: 15px;
+            color: #356b42;
+        }
+
+        .feature-card p {
+            line-height: 1.6;
+        }
+
+        /* Bottom Section */
+        .closing {
+            background: #dcebd8;
+            padding: 55px 10%;
+            text-align: center;
+        }
+
+        .closing h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .closing p {
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #356b42;
+            color: white;
+            padding: 14px 28px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: #254e30;
+        }
+
+        /* Footer */
+        footer {
+            background: #263d2b;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            line-height: 1.8;
+        }
+
+        /* Mobile */
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 7px;
+                font-size: 13px;
+            }
+
+            .hero h1 {
+                font-size: 35px;
+            }
+
+            .story {
+                flex-direction: column;
+            }
+
+            .story img {
+                width: 100%;
+                height: 280px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="logo">🌿 Green Muse Plant Nursery</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#plants">Plants</a>
+            <a href="about.html">About</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Our Love for All Things Green</h1>
+
+        <p>
+            Welcome to Green Muse Plant Nursery, where our passion
+            for plants inspires us to help you bring more beauty,
+            nature, and life into your everyday spaces.
+        </p>
+    </section>
+
+    <!-- Our Story -->
+    <section class="story">
+
+        <img
+            src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800"
+            alt="Beautiful green trees and nature">
+
+        <div class="story-content">
+            <h2>Our Story</h2>
+
+            <p>
+                At Green Muse Plant Nursery, we believe plants have
+                a special way of making a space feel like home.
+                From beautiful indoor plants to greenery for your
+                outdoor garden, we love helping people discover
+                the joy of growing and caring for plants.
+            </p>
+
+            <p>
+                We created Green Muse with a simple idea:
+                to make plants more accessible and inspire everyone
+                to add a little more green to their lives.
+            </p>
+
+            <p>
+                Whether you are just starting your plant journey
+                or have a home full of greenery, we are happy
+                to be part of it!
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Our Mission -->
+    <section class="mission">
+        <h2>Our Mission</h2>
+
+        <p>
+            Our mission is to inspire a love for plants by providing
+            beautiful greenery and encouraging people to connect
+            with nature. We want everyone to feel confident
+            growing, learning, and creating their own green spaces.
+            A little greenery can make a big difference!
+        </p>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+        <h2>Why Choose Green Muse?</h2>
+
+        <div class="features">
+
+            <div class="feature-card">
+                <h3>🌱 Beautiful Plants</h3>
+                <p>
+                    Discover a variety of plants to brighten
+                    your home, garden, and everyday spaces.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <h3>🌿 Plant Passion</h3>
+                <p>
+                    We love everything about plants and want
+                    to share that passion with our community.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <h3>🪴 For Everyone</h3>
+                <p>
+                    Whether you're a beginner or an experienced
+                    plant lover, there is something for you.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Closing Section -->
+    <section class="closing">
+        <h2>Let's Grow Something Beautiful!</h2>
+
+        <p>
+            Thank you for visiting Green Muse Plant Nursery.
+            We can't wait to help you find your next favorite plant!
+        </p>
+
+        <a href="index.html#plants" class="btn">
+            Explore Our Plants
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact us: hello@greenmuse.com</p>
+        <p>&copy; 2026 Green Muse Plant Nursery. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
