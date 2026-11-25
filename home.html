@@ -1,1 +1,253 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Haven | Plant Shop</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f7f0;
+            color: #263d2b;
+        }
+
+        /* Navigation */
+        header {
+            background-color: #ffffff;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: bold;
+            color: #356b42;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #263d2b;
+            margin-left: 25px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #6b9b65;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 450px;
+            display: flex;
+            align-items: center;
+            padding: 60px 10%;
+            background: #dcebd8;
+        }
+
+        .hero-content {
+            max-width: 550px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #356b42;
+            color: white;
+            padding: 14px 28px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: #254e30;
+        }
+
+        /* Featured Plants */
+        .featured {
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        .featured h2 {
+            font-size: 32px;
+            margin-bottom: 35px;
+        }
+
+        .plant-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .plant-card {
+            background: white;
+            width: 250px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        .plant-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 7px;
+        }
+
+        .plant-card h3 {
+            margin: 15px 0 8px;
+        }
+
+        .plant-card p {
+            color: #66816a;
+            margin-bottom: 10px;
+        }
+
+        /* About Section */
+        .about {
+            background: #e6eee1;
+            padding: 55px 10%;
+            text-align: center;
+        }
+
+        .about h2 {
+            margin-bottom: 15px;
+            font-size: 30px;
+        }
+
+        .about p {
+            max-width: 650px;
+            margin: auto;
+            line-height: 1.7;
+        }
+
+        /* Footer */
+        footer {
+            background: #263d2b;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 7px;
+                font-size: 13px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="logo">🌿 Green Haven</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#plants">Plants</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Bring Nature Into Your Home</h1>
+
+            <p>
+                Discover beautiful indoor plants that brighten your
+                space and bring a little more nature into your life.
+            </p>
+
+            <a href="#plants" class="btn">Shop Plants</a>
+        </div>
+    </section>
+
+    <!-- Featured Plants -->
+    <section class="featured" id="plants">
+        <h2>Our Popular Plants</h2>
+
+        <div class="plant-container">
+
+            <div class="plant-card">
+                <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=500"
+                     alt="Green indoor plant">
+                <h3>Monstera</h3>
+                <p>$24.99</p>
+                <a href="#contact" class="btn">Learn More</a>
+            </div>
+
+            <div class="plant-card">
+                <img src="https://images.unsplash.com/photo-1497250681960-ef046c08a56e?w=500"
+                     alt="Indoor potted plant">
+                <h3>Peace Lily</h3>
+                <p>$19.99</p>
+                <a href="#contact" class="btn">Learn More</a>
+            </div>
+
+            <div class="plant-card">
+                <img src="https://images.unsplash.com/photo-1509423350716-97f9360b4e09?w=500"
+                     alt="Succulent plant">
+                <h3>Succulent</h3>
+                <p>$12.99</p>
+                <a href="#contact" class="btn">Learn More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Green Haven</h2>
+
+        <p>
+            At Green Haven, we believe every home deserves a little
+            greenery. We offer a variety of beautiful plants to help
+            you create a relaxing, natural, and welcoming space.
+            Whether you're a beginner or a plant expert, we have
+            something for everyone!
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>Contact us: hello@greenhaven.com</p>
+        <p>&copy; 2026 Green Haven Plant Shop. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
